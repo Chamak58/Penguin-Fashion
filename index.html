@@ -22,10 +22,23 @@
     </style>
   </head>
   <body>
-    <header class="px-5 py-5 md:px-10 md:py-8 xl:px-24 xl:py-10">
+    <header class="bg-[#FFFBF0] px-5 py-5 md:px-10 md:py-8 xl:px-24 xl:py-10">
+      <!-- navbar section -->
       <nav class="md:flex md:justify-between items-center">
-        <div>
-          <img class="w-64 md:w-96 mx-auto" src="/icons/logo.png" alt="" />
+        <div class="flex items-center gap-x-2 justify-center">
+          <img
+            class="w-12 md:w-28 h-8 md:h-12 rounded-lg"
+            src="/icons/logo.jpeg"
+            alt=""
+          />
+          <h1>
+            <span class="text-lg md:text-3xl text-green-600 font-bold"
+              >Penguin</span
+            >
+            <span class="md:text-3xl text-lg text-black font-bold"
+              >Fashion</span
+            >
+          </h1>
         </div>
 
         <div class="flex gap-x-3.5 justify-center mt-3">
@@ -35,6 +48,53 @@
           <a class="text-sm" href="">Contact us</a>
         </div>
       </nav>
+
+      <!-- banner section -->
+      <section>
+        <div>
+          <!-- banner content part -->
+          <div>
+            <h1 class="font-bebas-neue my-4 md:my-8">
+              <span
+                class="tracking-wider text-4xl uppercase md:text-6xl font-medium text-[#FABE4C]"
+                >Be the Penguins</span
+              >
+              <br />
+              <span
+                class="tracking-wider text-4xl uppercase md:text-6xl font-medium text-[#363958]"
+                >of Winter</span
+              >
+            </h1>
+            <p class="font-roboto text-sm md:text-lg font-normal mb-3 md:mb-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              ex.
+            </p>
+
+            <button
+              class="py-2 px-4 bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex rounded-lg gap-x-2"
+            >
+              <svg
+                class="w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                xml:space="preserve"
+              >
+                <path
+                  fill="white"
+                  d="m440 360 62-213H119.373L94.734 40H10v32h59.266L136 361.818V440h304v-32H168v-48z"
+                />
+                <circle fill="white" cx="168" cy="455" r="47" />
+                <circle fill="white" cx="168" cy="455" r="20" />
+                <circle fill="white" cx="366.286" cy="455" r="47" />
+                <circle fill="white" cx="366.286" cy="455" r="20" />
+              </svg>
+              <span class="text-white rounded-lg font-medium">Buy now</span>
+            </button>
+          </div>
+          <!-- banner image part -->
+          <div></div>
+        </div>
+      </section>
     </header>
   </body>
 </html>
