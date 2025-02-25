@@ -22,7 +22,7 @@
     </style>
   </head>
   <body>
-    <header class="bg-[#FFFBF0] px-5 py-5 md:px-10 md:py-8 xl:px-24 xl:py-10">
+    <header class="bg-[#FFFBF0] px-5 py-5 md:px-20 md:py-12 xl:px-30 xl:py-16">
       <!-- navbar section -->
       <nav class="md:flex md:justify-between items-center">
         <div class="flex items-center gap-x-2 justify-center">
@@ -51,10 +51,10 @@
 
       <!-- banner section -->
       <section>
-        <div>
+        <div class="lg:flex justify-between gap-16">
           <!-- banner content part -->
-          <div>
-            <h1 class="font-bebas-neue my-4 md:my-8">
+          <div class="lg:w-2/3 lg:items-center">
+            <h1 class="font-bebas-neue mt-6 mb-3 md:mt-12">
               <span
                 class="tracking-wider text-4xl uppercase md:text-6xl font-medium text-[#FABE4C]"
                 >Be the Penguins</span
@@ -65,9 +65,12 @@
                 >of Winter</span
               >
             </h1>
-            <p class="font-roboto text-sm md:text-lg font-normal mb-3 md:mb-6">
+            <p
+              class="font-roboto text-sm md:text-lg font-normal mb-3 md:mb-6 text-justify"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
-              ex.
+              ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio, temporibus quidem adipisci quia officia atque rerum.
             </p>
 
             <button
@@ -92,7 +95,9 @@
             </button>
           </div>
           <!-- banner image part -->
-          <div></div>
+          <div class="flex justify-center my-5">
+            <img src="/images/model.png" alt="" />
+          </div>
         </div>
       </section>
     </header>
